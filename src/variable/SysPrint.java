@@ -1,3 +1,5 @@
+package variable;
+
 public class SysPrint {
     public static void main(String args[]){
         System.out.println("hello,world"); // 화면에 hello,world를 출력하고 줄바꿈한다
@@ -26,6 +28,30 @@ public class SysPrint {
         System.out.println("x-y="+(x-y));
         System.out.println("x*y="+x*y);
         System.out.println("x/y="+x/y);
+
+        System.out.println("------------변수 타입--------------");
+
+        int a = 100;
+        double pi = 3.14;
+        char ch = 'a';
+        String str = "abc";
+
+        System.out.println(x);
+        System.out.println(pi);
+        System.out.println(a);
+        System.out.println(str);
+
+        System.out.println("------------상수와 리터럴------------");
+        //상수는 변수와 마찬가지로 값을 저장할수있는 공간
+        //변수와 달리 한번 값을 저장하면 다른 값으로 변경할 수없다 final을 붙여주면됌
+        //리터럴은 변수와 상수의 자체 값을 의미하는것
+
+        final int MAX_SPEED = 10;
+        final int MAX_VALUE;
+        MAX_VALUE = 100;
+        //MAX_VALUE = 200; // 에러
+
+
 
 
     }
