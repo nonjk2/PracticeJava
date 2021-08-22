@@ -13,7 +13,7 @@ public class Switch {
             case 3:
             case 4:
             case 5:
-                System.out.println("현재의 계절은 봄입니다."); //if(month==3||month==4||month==5)
+                System.out.println("현재의 계절은 봄입니다."); //if(m onth==3||month==4||month==5)
                 break;
             case 6: case 7: case 8:
                 System.out.println("현재의 계절은 여름입니다.");
